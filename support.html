@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NET – Support</title>
+<style>
+  :root { --bg: #f6f6f4; --ink: #111; --muted: #6e6e70; --line: #e2e2df; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0c0c0d; --ink: #f5f5f7; --muted: #9a9aa0; --line: #2a2a2d; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 17px/1.6 ui-rounded, -apple-system, BlinkMacSystemFont, "SF Pro Rounded", system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 64px 20px 96px; }
+  .mark { font-weight: 700; letter-spacing: .35em; font-size: 15px; color: var(--muted); }
+  h1 { font-size: 40px; line-height: 1.1; margin: 12px 0 8px; }
+  h2 { font-size: 20px; margin: 40px 0 8px; }
+  .muted { color: var(--muted); }
+  .symbols { display: grid; grid-template-columns: 48px 1fr; gap: 10px 8px; margin: 16px 0; }
+  .symbols span:nth-child(odd) { font-weight: 700; text-align: center; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0 24px; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">N E T</div>
+  <h1>Support</h1>
+  <p>Behöver du hjälp med NET, har du hittat en bugg eller har du en idé? Skriv till oss på <a href="mailto:gustav@nomar.se">gustav@nomar.se</a> så svarar vi så snart vi kan.</p>
+
+  <h2>Symbolerna</h2>
+  <div class="symbols">
+    <span>–</span><span>Note – en anteckning</span>
+    <span>□</span><span>Event – en händelse</span>
+    <span>○</span><span>Todo – något att göra</span>
+    <span>●</span><span>Klar</span>
+    <span>■</span><span>Händelse som har varit</span>
+    <span>&gt;</span><span>Inte hunnen, eller flyttad till en annan dag</span>
+  </div>
+
+  <h2>Vanliga frågor</h2>
+  <p><strong>Hur byter jag typ på en rad?</strong><br>Tryck på symbolen till vänster om skrivfältet, eller börja raden med "- ", "o " eller "[] ". Befintliga rader ändrar du genom att hålla in dem.</p>
+  <p><strong>Hur flyttar jag något till imorgon?</strong><br>Håll in raden och välj Flytta till imorgon. Det du inte hann med dyker också upp som en påminnelse överst på dagens sida.</p>
+  <p><strong>Varför måste jag skriva om en todo för att flytta den?</strong><br>Det är ett medvetet motstånd som får dig att fundera på om saken är värd att göra. Du kan stänga av det i Inställningar › Skriv om innan flytt.</p>
+  <p><strong>Mina kalenderhändelser syns inte.</strong><br>Kontrollera att kalendern är kopplad under Inställningar i NET, och att NET har full åtkomst under iOS Inställningar › Integritet och säkerhet › Kalendrar.</p>
+  <p><strong>Var sparas min data?</strong><br>Bara lokalt på din iPhone. Läs mer i <a href="integritet.html">integritetspolicyn</a>.</p>
+
+  <hr>
+  <p class="muted"><a href="integritet.html">Integritetspolicy</a> · © 2026 Nomar Tech AB</p>
+</main>
+</body>
+</html>
